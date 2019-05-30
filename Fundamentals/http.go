@@ -4,7 +4,7 @@ import ("fmt"
 		"net/http")
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Go is amazing!")
+	fmt.Fprintf(w, "Go is awesome!")
 }
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
